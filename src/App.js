@@ -60,13 +60,13 @@ const getWeatherIconUrl = (main)=>
     switch(main)
     {
       case "Clouds":
-        return "/thunder.png";
+        return "/thunder.webp";
         case "Rain":
-          return "/rain_with_cloud.png";
+          return "/rain_with_cloud.webp";
           case "Mist":
-            return "/Tornado.png";
+            return "/Tornado.webp";
             case "Haze":
-              return "/sun.png";
+              return "/sun.webp";
               default:
                 return null;
     }
